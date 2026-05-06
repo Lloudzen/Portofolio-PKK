@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>About - Portofolio TKJ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+    <h2>Portofolio Kami</h2>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="project.html">Project</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<section>
+    <h1>Tentang Kami</h1>
+
+    <b>Nama Anggota:</b>
+        <p>1. Akhfandi Santoso</p>
+        <p>2. Farrel Ilham Fauzan</p>
+        <p>3. Julaeha</p>
+        <p>4. Khairun Nisa Punjadi</p>
+        
+    <p><b>Kelas:</b> XI TKJ 2</p>
+    <p><b>Kelompok:</b> 4</p>
+
+    <h2>Skill TKJ</h2>
+    <ul>
+        <li>Instalasi Sistem Operasi</li>
+        <li>Konfigurasi Jaringan LAN</li>
+        <li>Setting Mikrotik CCR dan RB951</li>
+        <li>Krimping kabel LAN dan Fiber Optik</li>
+        <li>Konfigurasi Static Routing pada router Cisco</li>
+    </ul>
+
+</section>
+
+<section class="sertifikat">
+  <h2>Sertifikat Kami</h2>
+
+  <div class="sertifikat-list">
+    <img src="images2/serti1.jpg" onclick="openModal(this.src)">
+    <img src="images2/serti2.jpg" onclick="openModal(this.src)">
+    <img src="images2/serti3.jpg" onclick="openModal(this.src)">
+    <img src="images2/serti4.jpg" onclick="openModal(this.src)">
+  </div>
+</section>
+
+<div id="modal" class="modal" onclick="closeModal()">
+  <img id="modal-img">
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+<style>
+nav {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+}
+
+nav h2 {
+    display: inline;
+    color: #3b82f6;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #3b82f6;
+}
+</style> 
+
+  <!-- LANGSUNG CSS DI SINI (biar gak error link) -->
+  <style>
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial;
+    }
+
+    body {
+      height: 100vh;
+    }
+
+    /* NAVBAR */
+    nav {
+      position: absolute;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+      color: white;
+      z-index: 10;
+    }
+
+    nav span {
+      color: #3b82f6;
+    }
+
+    nav ul {
+      display: flex;
+      gap: 20px;
+      list-style: none;
+    }
+
+    /* HERO */
+    .hero {
+      height: 100vh;
+      background:url(https://www.cellnex.com/app/uploads/2021/11/dreamstime_l_125148063-scaled.jpg) center/cover;
+      position: relative;
+    }
+
+    .overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.6);
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 40px;
+      color: white;
+    }
+
+    /* TEXT */
+    .hero-text h1 {
+      font-size: 32px;
+    }
+
+    .hero-text h3 {
+      color: #3b82f6;
+      margin-top: 10px;
+    }
+
+    .hero-text button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: #3b82f6;
+      border: none;
+    }
+
+    /* IMAGE */
+    .hero-image {
+      position: relative;
+    }
+
+    .hero-image img {
+      width: 200px;
+      border-radius: 50%;
+      position: relative;
+      z-index: 2;
+    }
+
+    .circle-bg {
+      width: 220px;
+      height: 220px;
+      background: #3b82f6;
+      border-radius: 50%;
+      position: absolute;
+      top: -10px;
+      left: -10px;
+    }
+
+  </style>
+</head>
+<body>
+
+<nav>
+  <h2>Portfolio <span>Kami</span></h2>
+  <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="project.html">Project</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="hero">
+
+  <div class="overlay"></div>
+
+  <div class="hero-content">
+
+    <div class="hero-text">
+      <h1>Web Developer</h1>
+      <p>Portfolio</p>
+      <h3>Kelompok 4</h3>
+    </div>
+
+    <div class="hero-image">
+      <div class="circle-bg"></div>
+      <img src="https://i.pravatar.cc/200">
+    </div>
+
+  </div>
+
+</section>
+
+</body>
+</html>
